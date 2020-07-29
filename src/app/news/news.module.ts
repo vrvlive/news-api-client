@@ -7,7 +7,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material/material.module';
-import { NavListComponent } from '../nav-list/nav-list.component';
+import { NavListComponent } from './nav-list/nav-list.component';
 @NgModule({
   declarations: [ArticleComponent, MainPageComponent, NavListComponent],
   imports: [
@@ -18,4 +18,4 @@ import { NavListComponent } from '../nav-list/nav-list.component';
     NewsRoutingModule,
   ],
 })
-export class NewsModule {}
+export class NewsModule { }
