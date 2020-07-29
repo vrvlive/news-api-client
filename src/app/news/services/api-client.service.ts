@@ -4,14 +4,11 @@ import { map, catchError, share } from 'rxjs/operators';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Article, NewsItems } from '../models';
 import { NewsApiRequestBuilder } from './news-api-request-builder'
-import { ArticleComponent } from '../article/article.component';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ApiClientService {
-
-
   errorArticles: Article[] = [{
     source:
     {

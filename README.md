@@ -19,7 +19,7 @@ Do not use this code in production, without having a proxy of your own and havin
 
 ## Sample Screenshots 
 
-- large screen rendering 
+- Large screen rendering 
 
 ![Large Screen](/images/large_screen.png "Title")
 
