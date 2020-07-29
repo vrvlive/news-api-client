@@ -1,0 +1,65 @@
+.mat-elevation-z4.mat-card {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  min-width: 280px;
+  overflow-y: none;
+  margin: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image {
+  display: block;
+  object-fit: cover;
+  object-position: top;
+  height: 200px;
+}
+
+.mat-card-title {
+  font-size: 16px;
+  height: 64px;
+  margin: 0px;
+}
+
+.mat-card-content {
+  font-size: 14px;
+  height: 100px;
+  margin: 0px;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.line-clamp-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.mat-card-subtitle {
+  font-size: 12px;
+  max-height: 16px;
+}
+
+.mat-card-actions {
+  height: 16px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 4px;
+}
+
+.mat-card-footer {
+  font-size: 12px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  height: 16px;
+}
