@@ -16,6 +16,10 @@ Do not use this code in production, without having a proxy of your own and havin
 - Update environment variable  `apiKey: '<get_your_own_key>'` in `environment.ts` file
 - run `npm update`
 - run  `ng serve -o` to view the latest news served by the API. 
+- Or run it with docker 
+  - `docker build . -t news-reader-app`
+  - `docker run -d -p 80:80 --rm --name news-site news-reader-app`
+
 
 ## Sample Screenshots 
 
